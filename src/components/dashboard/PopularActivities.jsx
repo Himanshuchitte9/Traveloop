@@ -6,6 +6,22 @@ import { Star, MapPin, TrendingUp } from 'lucide-react';
 const activities = [
   {
     id: 1,
+    name: "Desert Safari & BBQ",
+    location: "Dubai, UAE",
+    image: "https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?auto=format&fit=crop&q=80&w=400",
+    rating: 4.9,
+    price: "₹6,500"
+  },
+  {
+    id: 2,
+    name: "Night Tour of Petra",
+    location: "Jordan",
+    image: "https://images.unsplash.com/photo-1580641471354-12237516e844?auto=format&fit=crop&q=80&w=400",
+    rating: 4.8,
+    price: "₹4,200"
+  },
+  {
+    id: 3,
     name: "Skydiving over Interlaken",
     location: "Switzerland",
     image: "https://images.unsplash.com/photo-1521673461164-de300ebcf417?auto=format&fit=crop&q=80&w=400",
@@ -13,7 +29,7 @@ const activities = [
     price: "₹18,500"
   },
   {
-    id: 2,
+    id: 4,
     name: "Hot Air Ballooning",
     location: "Cappadocia",
     image: "https://images.unsplash.com/photo-1520440229334-962af01ef057?auto=format&fit=crop&q=80&w=400",
@@ -21,20 +37,12 @@ const activities = [
     price: "₹12,200"
   },
   {
-    id: 3,
+    id: 5,
     name: "Northern Lights Tour",
     location: "Iceland",
     image: "https://images.unsplash.com/photo-1531366930471-893ca76da03f?auto=format&fit=crop&q=80&w=400",
     rating: 4.9,
     price: "₹9,500"
-  },
-  {
-    id: 4,
-    name: "Scuba Diving",
-    location: "Great Barrier Reef",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=400",
-    rating: 4.7,
-    price: "₹14,000"
   }
 ];
 
